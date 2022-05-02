@@ -86,7 +86,7 @@ def handle_event(event):
         print("hey")
         # time.sleep(300)
         current_time = datetime.now()
-        n = 2
+        n = 720
         future_time = current_time + timedelta(minutes=n)
         future_time_str = future_time.strftime("%H:%M:%S")
         job = schedule.every().day.at(future_time_str).do(get_decision, id=id)
