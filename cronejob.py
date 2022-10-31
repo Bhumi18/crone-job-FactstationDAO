@@ -32,8 +32,8 @@ contract = web3.eth.contract(address=factstation_factory, abi=abi)
 # print(contract.functions.getPost(3).call())
 
 chain_id = 42
-my_address = "0xFbb9E1Be77d97BD94A98e5441125Ef2bC2031aed"
-private_key = "0x1c05e5bfd4e7670d40b9be28df5794f77423df37131dce12ba9c11e1bf75e030"
+my_address = ""
+private_key = ""
 nonce = web3.eth.getTransactionCount(my_address)
 
 
